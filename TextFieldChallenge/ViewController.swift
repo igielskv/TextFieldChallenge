@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var zipCodeTextField: UITextField!
+    @IBOutlet var cashTextFiled: UITextField!
+    @IBOutlet var switchedTextField: UITextField!
+    @IBOutlet var editingSwitch: UISwitch!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
