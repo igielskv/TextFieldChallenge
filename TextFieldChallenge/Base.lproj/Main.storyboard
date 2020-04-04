@@ -32,13 +32,16 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="y2A-r1-jSc">
                                         <rect key="frame" x="0.0" y="84" width="343" height="34"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gcv-03-foa">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Toggle switch to edit text field" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gcv-03-foa">
                                                 <rect key="frame" x="0.0" y="0.0" width="286" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xxd-kz-0gD">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Xxd-kz-0gD">
                                                 <rect key="frame" x="294" y="1.6666666666666572" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleEdittingSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="mD2-CW-18J"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
